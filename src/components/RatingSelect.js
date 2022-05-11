@@ -1,7 +1,7 @@
 import React,{ useState,useContext, useEffect } from 'react';
 import FeedbackContext from '../context/FeedbackContext';
 const RatingSelect = ({ select }) => {
-    const [ selected,setSelected ] = useState(5);
+    const [ selected,setSelected ] = useState(10);
     const { feedbackEdit } = useContext(FeedbackContext);
 
     const handleChange = (e) =>{
